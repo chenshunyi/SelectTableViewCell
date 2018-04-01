@@ -65,6 +65,7 @@
     return YES;
 }
 -(NSString *)tableView:(UITableView *)tableView titleForDeleteConfirmationButtonForRowAtIndexPath:(NSIndexPath *)indexPath {//设置左滑编辑的文本
+    NSLog(@"修改  测试git工具");
     return @"删除";
 }
 -(UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath{
